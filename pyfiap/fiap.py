@@ -41,7 +41,7 @@ class APP() :
         'select': "maximum",
       })
 
-    return self.fetch(keys)
+    return self.fetch_timedata(keys)
 
   def fetch_by_time(self, point_ids, from_, to) :
     if type(point_ids) != list :
